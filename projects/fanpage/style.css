@@ -1,0 +1,42 @@
+/* Write all your custom CSS below this line  */
+
+body {
+    margin: 0;
+    background-color:blanchedalmond; 
+}
+
+section{
+    margin-left: 10cm;
+    margin-top: 0.5em;
+    width: 15cm;
+    border: 1cm brown;
+    border-style:outset;
+    padding: 1cm;
+    border-spacing: 2em;
+}
+
+img{
+    margin: 00.5em;
+    margin-left: 10cm;
+    width: fit-content;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 18cm;
+    color:indianred
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 15cm;
+    color: brown;
+}
+
+a{
+    margin-left: 11cm
+}
+
+footer{
+    margin-left: 17cm
+}
