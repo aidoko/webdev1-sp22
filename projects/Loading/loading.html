@@ -1,54 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="script.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Loading</title>
 </head>
 <body>
-    <h1> Loading Webpage </h1>
-    <div class="loading-bar" style="--width: 5" data-label="Loading..."></div>
-    <style>
-        *,*::before,*::after{
-            box-sizing: border-box;
-        }
-        h1{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: larger;
-        }
-
-        body{
-            background-color: cadetblue;
-            padding: 0;
-            margin:0
-        }
-
-        .loading-bar{
-            width: 500px;
-            height: 3em;
-            background-color: white;
-            border-radius: 1.5em;
-            color:aqua;
-        }
-
-        .loading-bar::before{
-            content:attr(data-label);
-            display:flex;
-            align-items: center;
-            position:absolute;
-            left:.5em;
-            top:.5em;
-            bottom: .5em;
-            width:calc(var(--width,0)- 10%);
-            min-width: 2rem;
-            max-width: calc(100% - 1em);
-            background-color: blue;
-            border-radius: 1em;
-            padding: 1em;
-        }
-
-    </style>
+    <h1>Loading Webpage</h1>
+    
+    <div class="animation-container">
+        <div class="loading-container">
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+    
 </body>
 </html>

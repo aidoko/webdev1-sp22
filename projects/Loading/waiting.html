@@ -4,38 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Waiting</title>
 </head>
 <body>
-    <h1> Waiting Webpage </h1>
-    <div class="circle"></div>
-    <style>
-        h1{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: larger;
-        }
-
-        body{
-            background-color: cadetblue;
-        }
-
-        .circle{
-            margin: 70px auto;
-            width: 40px;
-            height: 40px;
-            border: 5px solid rgba(255,255,255,0.2);
-            border-radius: 50%;
-            border-top-color: aquamarine;
-            animation-name: spin;
-            animation: spin is linear infinite;
-            animation-iteration-count:infinite; 
-            transform: rotate(360deg);
-        }
-        @keyframes spin{
-            100%{
-                transform: rotate(360deg);
-            }
-        }
-    </style>
+    <h1>Waiting Webpage</h1>
+    <div class="animation-container">
+        <div class="circle"></div>
+    </div>
 </body>
 </html>
