@@ -4,5 +4,13 @@ body{
 }
 
 img{
-    size: 20px;
+ width:250px;
+ height:250px;
+}
+
+.Web{
+    background-color: violet;
+    padding: 5em;
+
+    justify-content: center;
 }
