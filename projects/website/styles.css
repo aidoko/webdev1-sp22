@@ -1,0 +1,9 @@
+body{
+    background-color: purple;
+}
+
+.box{
+    background-color: aquamarine;
+    width: 20px;
+    height: 20px;
+}
