@@ -1,9 +1,8 @@
 body{
     background-color: purple;
+    position:absolute;
 }
 
-.box{
-    background-color: aquamarine;
-    width: 20px;
-    height: 20px;
+img{
+    size: 20px;
 }
