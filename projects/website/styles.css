@@ -3,14 +3,35 @@ body{
     position:absolute;
 }
 
+p{
+    text-align: center;
+    color:antiquewhite;
+}
+
 img{
  width:250px;
  height:250px;
+ margin: 2px;
+ background-color: blueviolet;
+ padding: 1em;
 }
 
-.Web{
+header{
     background-color: violet;
-    padding: 5em;
+    padding: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 1em 2em;
+    justify-content: space-around;
+}
 
-    justify-content: center;
+h1{
+    color:white;
+
+}
+
+h2{
+    text-align: center;
+    color: magenta;
 }
